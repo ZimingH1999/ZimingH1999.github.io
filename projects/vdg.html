@@ -1,9 +1,9 @@
-<html lang="en"><head>
+<html lang="zh-CN"><head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Video Description Generator</title>
-  <meta content="" name="descriptison">
+  <title>研究摘要 | 新型农业经营主体对小农户增收与收入不平等的影响</title>
+  <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -11,7 +11,7 @@
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,44 +24,92 @@
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Personal - v2.2.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- MathJax（保持全站统一，即使本页不一定用到公式） -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(','\\)'], ['$', '$']],
+        displayMath: [['\\[','\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script async id="MathJax-script"
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <style>
+    /* 适度优化摘要可读性 */
+    .key-box { background:#f9fafb;border:1px solid #eef2f7;border-radius:10px;padding:1rem 1.25rem;margin:1rem 0; }
+    .mech-list li { margin: .25rem 0; }
+    .pdf-wrap { margin-top: 1.25rem; }
+    .pdf-wrap iframe, .pdf-wrap embed { width:100%; height:720px; border:1px solid #e5e7eb; border-radius:8px; }
+  </style>
 </head>
 
-<body data-gr-c-s-loaded="true">
+<body>
 
-<!-- ======= Portfolio Details ======= -->
+  <!-- ======= Portfolio Details ======= -->
   <main id="main">
     <div id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row">
-
           <div class="col-lg-12 portfolio-info">
             <br>
-            <h2 style="color:#12d640">Video Description Generator</h2>
+            <h1>新型农业经营主体对村庄内小农户增收与收入不平等的影响</h1>
+            <p class="text-muted">基于中国家庭大数据库等微观调研数据的实证研究</p>
 
-            <ul>
-              <li><strong>Tech Stack</strong>: Tensorflow, NLTK, Keras, Python, Opencv</li>
-            </ul>
+            <div class="key-box">
+              <p>
+                本文基于中国家庭大数据库等微观调研数据，将村庄数据和微观农户数据进行匹配，
+                实证估计了新型农业经营主体对村庄内小农户增收和收入不平等的影响，并进行包容性分析和影响机制检验。
+              </p>
+            </div>
 
+            <h2>主要发现</h2>
+            <ol>
+              <li>
+                <strong>增收效应显著：</strong>
+                新型农业经营主体对村庄内小农户的农业经营性收入和家庭总收入起到了显著的正向提升作用。
+              </li>
+              <li>
+                <strong>缩小不平等且具包容性：</strong>
+                新型农业经营主体降低了小农户的收入不平等程度；对较低收入队列小农户的家庭总收入促进作用更强。
+                同时，其增收效应在不同人力、物质和社会资本水平的小农户之间并无明显差异，体现出包容性。
+              </li>
+              <li>
+                <strong>机制路径清晰：</strong>
+                主要通过以下机制促进小农户农业经营性收入和家庭总收入提高：
+                <ul class="mech-list">
+                  <li>促进土地流转并降低土地细碎化程度；</li>
+                  <li>调整种植结构；</li>
+                  <li>推动农业机械化；</li>
+                  <li>开展农业技术培训。</li>
+                </ul>
+              </li>
+            </ol>
+
+            <h2>数据与方法（简述）</h2>
             <p>
-              Project aims at generating a description of a given video. The steps include Object detection in video frames using Convolutional Neural Network followed by generating text for each frame using a recurrent neural network and thereby generating tags with the help of natural language processing.            
+              使用中国家庭大数据库等微观调研数据，采用<strong>村庄层面</strong>与<strong>农户层面</strong>的匹配样本进行估计，
+              在控制相关特征后检验新型农业经营主体的影响，并对不同资本禀赋组进行包容性分析与机制识别。
             </p>
+
+            <h2>附：PDF 在线预览</h2>
+            <div class="pdf-wrap">
+              <!-- 将下面的 src 替换为你的 PDF 文件路径，如：../assets/papers/naoe_inequality_study.pdf -->
+              <embed src="../assets/papers/your-paper.pdf" type="application/pdf">
+            </div>
+
+            <hr>
+            <p style="color:#666;"><em>说明：以上为研究摘要页面，全文内容请参见上方 PDF。</em></p>
           </div>
-
         </div>
-
       </div>
     </div><!-- End Portfolio Details -->
   </main><!-- End #main -->
 
- <!-- Vendor JS Files -->
-  <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="assets/vendor/jquery/jquery.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="../assets/vendor/php-email-form/validate.js"></script>
@@ -73,8 +121,6 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
-
-  <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
 
 </body>
 </html>
