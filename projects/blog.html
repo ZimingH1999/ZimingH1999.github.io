@@ -1,9 +1,9 @@
-<html lang="en"><head>
+<html lang="zh-CN"><head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Personal Blog</title>
-  <meta content="" name="descriptison">
+  <title>研究分享 | Digital Economy and Inclusive Development of New Agricultural Operating Entities</title>
+  <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -11,7 +11,7 @@
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,49 +24,71 @@
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Personal - v2.2.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- MathJax（保持全站统一，即使本页不一定用到公式） -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(','\\)'], ['$', '$']],
+        displayMath: [['\\[','\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script async id="MathJax-script"
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <style>
+    /* 适度优化摘要可读性 */
+    .key-box { background:#f9fafb;border:1px solid #eef2f7;border-radius:10px;padding:1rem 1.25rem;margin:1rem 0; }
+    .mech-list li { margin: .25rem 0; }
+    .pdf-wrap { margin-top: 1.25rem; }
+    .pdf-wrap iframe, .pdf-wrap embed { width:100%; height:720px; border:1px solid #e5e7eb; border-radius:8px; }
+  </style>
 </head>
 
-<body data-gr-c-s-loaded="true">
+<body>
 
-<!-- ======= Portfolio Details ======= -->
+  <!-- ======= Portfolio Details ======= -->
   <main id="main">
     <div id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row">
-
           <div class="col-lg-12 portfolio-info">
             <br>
-            <h2 style="color:#12d640">Tech Blog</h2>
+            <h1>研究分享 | Digital Economy and Inclusive Development of New Agricultural Operating Entities</h1>
+            <div class="key-box">
+  <p>
+    New agricultural operating entities (NAOEs) are essential agricultural players. With the development of the digital economy in the agricultural sector, both opportunities and challenges may arise for the NAOEs. This study examines the effects of the digital economy on the performance of NAOEs by using a comprehensive dataset containing information on nearly the entire population of family farms, farmer cooperatives and agricultural companies from 2013 to 2020 in China. The mechanisms and inclusiveness of these effects have also been explored. Our results find that the digital economy positively impacts NAOEs’ performance in terms of sales revenue and profit. These effects are realised by improving agricultural inputs and market transaction conditions. The effects are more profound for farmer cooperatives, agricultural companies and NAOEs with lower profitability and larger organisation size. The magnitude of the effects is larger for NAOEs located in regions with better topographic, economic conditions and higher digital economy levels. In addition, the synergy between traditional and digital infrastructures can enhance these effects. The conclusion provides insights and guidance for encouraging the high-quality and inclusive development of NAOEs in the digital age.
+  </p>
+</div>
 
-            <ul>
-              <li><strong>Tech Stack</strong>: Flask, SQLAlchemy, Python, Heroku, Postgres, Bootstrap, HTML, CSS</li>
-                <li><strong>Website URL</strong>: <a href="https://techingenious.herokuapp.com/" target="_blank">Link</a></li>
-              <li><strong>Github URL</strong>: <a href="https://github.com/rajaprerak/Blog_with_flask" target="_blank">Project Link</a></li>
-            </ul>
+<style>
+  .key-box { 
+    background:#f9fafb;
+    border:1px solid #eef2f7;
+    border-radius:10px;
+    padding:1rem 1.25rem;
+    margin:1rem 0; 
+    color:#000; /* 只让框里的文字为黑色 */
+  }
+</style>
 
-            <p>
-               The blog is created using flask as backend. I have used bootstrap for the frontend part. For storing the data, I have made use of MySQL database. I have used the python SQL toolkit SQLAlchemy for performing database access.
-            </p>
-              <p>
-                The blog consist of features like viewing posts. Admin can add new post, edit posts and delete posts. User can contact admin via the contact page.
-            </p>
+            <h2>附：PDF 在线预览</h2>
+            <div class="pdf-wrap">
+              <!-- 将下面的 src 替换为你的 PDF 文件路径，如：../assets/papers/naoe_inequality_study.pdf -->
+              <embed src="../assets/2815.pdf" type="application/pdf">
+            </div>
+
+            <hr>
+            <p style="color:#666;"><em>说明：以上为研究摘要页面，全文内容请参见上方 PDF。</em></p>
           </div>
-
         </div>
-
       </div>
     </div><!-- End Portfolio Details -->
   </main><!-- End #main -->
 
- <!-- Vendor JS Files -->
-  <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="assets/vendor/jquery/jquery.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="../assets/vendor/php-email-form/validate.js"></script>
@@ -78,8 +100,6 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
-
-  <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
 
 </body>
 </html>
