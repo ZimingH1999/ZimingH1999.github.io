@@ -1,109 +1,182 @@
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>麦屯的前两个月</title>
   
-    <title>麦屯的前两个月</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
-  
-    <!-- Favicons -->
-    <link href="../assets/img/favicon.png" rel="icon">
-    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
-    <!-- Vendor CSS Files -->
-    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
-  
-    <!-- Template Main CSS File -->
-    <link href="../assets/css/style.css" rel="stylesheet">
-  
-    <!-- =======================================================
-    * Template Name: Personal - v2.2.0
-    * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
-  </head>
-  
-  <body data-gr-c-s-loaded="true">
-  
-  <!-- ======= Portfolio Details ======= -->
-    <main id="main">
-      <div id="portfolio-details" class="portfolio-details">
-        <div class="container">
-  
-          <div class="row">
-  
-            <div class="col-lg-12 portfolio-info">
-              <br>
-              <h2 style="color:#12d640">麦屯的前两个月</h2>
-              <ul>
-                <li><strong>更新时间</strong>: 2025.2.3</li>
-              </ul>
-  
-                <p>
-               2024年12月24日，和爸妈、妹妹、导师、同门、朋友再见之后，一个人带着三个行李从上海浦东机场深夜出发，途径日本东京羽田机场转机，再花十一个小时跨越太平洋，终于落地芝加哥。 </p>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-<p>出了海关，取到行李，一个箱子已经因为颠簸开裂，多亏了机场有胶带。 </p>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
 
-<p>走出机场，看到来往不同肤色的老外，那一刻，才意识到，我出国了。 </p>
+    /* 主容器 */
+    .post-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
 
-<p>紧接着，按照小红书攻略，坐上机场的轻轨，去发往麦迪逊的大巴停车点，然后再坐上三个小时的大巴。 </p>
+    /* 返回按钮 */
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: white;
+      border: 1px solid #e0e4e8;
+      padding: 8px 20px;
+      border-radius: 30px;
+      color: #555;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 30px;
+      text-decoration: none;
+    }
 
-<p>一路上，因是严冬，看到的满是荒凉，路上的雪还没有融化，人烟稀少。只有经停站附近的一个麦当劳看到了几个人，瞬间孤独感涌上心头。 </p>
+    .back-btn:hover {
+      background: #007bff;
+      border-color: #007bff;
+      color: white;
+    }
 
-<p>大巴到站，朋友来接，顺便告诉我下载google map、校车乘坐方式、学院位置，又带我找了家餐厅吃了点饭，还送我带了一堆食物，真算得上雪中送炭。 </p>
+    /* 内容卡片 */
+    .post-card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      padding: 48px 56px;
+    }
 
-<p>到公寓了，和新舍友见面打招呼，送他一盒东京转机时买的白色恋人饼干，然后开始收拾行李。 </p>
+    /* 标题 */
+    .post-title {
+      font-size: 32px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+      border-left: 4px solid #007bff;
+      padding-left: 20px;
+    }
 
-<p>收拾个差不多，坐在床上，看着外面的雪，看着可怜的自己，开始想家。 </p>
+    /* 元信息 */
+    .post-meta {
+      color: #8a8f93;
+      font-size: 14px;
+      margin-bottom: 32px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eef2f6;
+    }
 
-<p>此后的一段生活，对我来说是枯燥无谓的。因为一直在赶返修论文的ddl，所以我每天在做的就是刷手机、改论文，关注学校的邮件。 </p>
+    .post-meta span {
+      margin-right: 24px;
+    }
 
-<p>舍友人很好，有车，每周都问我要不要一起去超市，朋友也会帮我下单一些生活品，所以初期还是比较的顺利。 </p>
+    /* 正文样式 */
+    .post-content p {
+      font-size: 16px;
+      line-height: 1.75;
+      color: #444;
+      margin-bottom: 20px;
+    }
 
-<p>转眼一月中旬，办了chase银行卡、公交bus pass、学生证wiscard、选了课、交了学费和保险SHIP，也和外导见了面。外导是中国人，挺温柔的，帮我安排了在学院的工位，并约定每周和我讨论一次。 </p>
+    /* 提示框/引用 */
+    .post-note {
+      background: #f8f9fa;
+      border-left: 4px solid #007bff;
+      padding: 16px 24px;
+      margin: 32px 0 0;
+      border-radius: 8px;
+      color: #666;
+      font-size: 14px;
+    }
 
-<p>2025年1月21日，开学了，一切也都步入正轨。 </p>
+    /* 分隔线 */
+    .divider {
+      margin: 40px 0 20px;
+      border-top: 1px solid #eef2f6;
+    }
 
-<p>此后，就是每天伴随着自然醒，乘坐84公交车去学院，然后晚上了就坐80公交车回家。 </p>
+    /* 响应式 */
+    @media (max-width: 768px) {
+      .post-container {
+        padding: 20px 16px;
+      }
+      .post-card {
+        padding: 24px 20px;
+      }
+      .post-title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
 
-<p>学院附近的Aldo咖啡和中餐救我大命。 </p>
-
-<p>今后的新生活，继续努力。
-                </p>
-            </div>
+<div class="post-container">
   
-          </div>
-  
-        </div>
-      </div><!-- End Portfolio Details -->
-    </main><!-- End #main -->
-  
-   <!-- Vendor JS Files -->
-    <script async="" src="//www.google-analytics.com/analytics.js"></script><script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="../assets/vendor/php-email-form/validate.js"></script>
-    <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="../assets/vendor/counterup/counterup.min.js"></script>
-    <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../assets/vendor/venobox/venobox.min.js"></script>
-  
-    <!-- Template Main JS File -->
-    <script src="../assets/js/main.js"></script>
-  
-    <script>if( window.self == window.top ) { (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-55234356-4', 'auto'); ga('send', 'pageview'); } </script>
-  
-  </body>
-  </html>
-  
-  
+  <!-- 返回按钮 -->
+  <a href="../index.html" class="back-btn">
+    ← 返回首页
+  </a>
+
+  <!-- 文章卡片 -->
+  <div class="post-card">
+    <h1 class="post-title">麦屯的前两个月</h1>
+    
+    <div class="post-meta">
+      <span>📅 2025年2月3日</span>
+      <span>📂 喃喃自语</span>
+      <span>✏️ Ziming</span>
+    </div>
+
+    <div class="post-content">
+      <p>2024年12月24日，和爸妈、妹妹、导师、同门、朋友再见之后，一个人带着三个行李从上海浦东机场深夜出发，途径日本东京羽田机场转机，再花十一个小时跨越太平洋，终于落地芝加哥。</p>
+
+      <p>出了海关，取到行李，一个箱子已经因为颠簸开裂，多亏了机场有胶带。</p>
+
+      <p>走出机场，看到来往不同肤色的老外，那一刻，才意识到，我出国了。</p>
+
+      <p>紧接着，按照小红书攻略，坐上机场的轻轨，去发往麦迪逊的大巴停车点，然后再坐上三个小时的大巴。</p>
+
+      <p>一路上，因是严冬，看到的满是荒凉，路上的雪还没有融化，人烟稀少。只有经停站附近的一个麦当劳看到了几个人，瞬间孤独感涌上心头。</p>
+
+      <p>大巴到站，朋友来接，顺便告诉我下载google map、校车乘坐方式、学院位置，又带我找了家餐厅吃了点饭，还送我带了一堆食物，真算得上雪中送炭。</p>
+
+      <p>到公寓了，和新舍友见面打招呼，送他一盒东京转机时买的白色恋人饼干，然后开始收拾行李。</p>
+
+      <p>收拾个差不多，坐在床上，看着外面的雪，看着可怜的自己，开始想家。</p>
+
+      <p>此后的一段生活，对我来说是枯燥无谓的。因为一直在赶返修论文的ddl，所以我每天在做的就是刷手机、改论文，关注学校的邮件。</p>
+
+      <p>舍友人很好，有车，每周都问我要不要一起去超市，朋友也会帮我下单一些生活品，所以初期还是比较的顺利。</p>
+
+      <p>转眼一月中旬，办了chase银行卡、公交bus pass、学生证wiscard、选了课、交了学费和保险SHIP，也和外导见了面。外导是中国人，挺温柔的，帮我安排了在学院的工位，并约定每周和我讨论一次。</p>
+
+      <p>2025年1月21日，开学了，一切也都步入正轨。</p>
+
+      <p>此后，就是每天伴随着自然醒，乘坐84公交车去学院，然后晚上了就坐80公交车回家。</p>
+
+      <p>学院附近的Aldo咖啡和中餐救我大命。</p>
+
+      <p>今后的新生活，继续努力。</p>
+
+      <div class="divider"></div>
+      
+      <div class="post-note">
+        💡 写于威斯康星大学麦迪逊分校
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
